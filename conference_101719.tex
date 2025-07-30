@@ -279,11 +279,43 @@
 	
 	
 	\section{Discussion}
-	\section{Conclusion and Future Work}
-	% This section is intentionally left blank for now.
-	% Summary: Personalization and visual metaphors are critical
-	% Limitations: Limited dream taxonomy
-	% Future: Multimodal input (voice/EEG), longitudinal studies
+	\subsection{\textbf{Technical Performance}}
+    Overall, the accuracy of the emotion detection model was 86. 67\%, which is a promising result, but it also highlights critical nuances in the ability of the emotion detection model to accurately classify select emotions.
+    \paragraph{High-Performing or High Reliability Emotions}
+    The model showed perfect accuracy for the following emotions: \textit{Anger, Joy and Sadness}. A good result even given its small sample convenience size. This reliability could be due to how these emotions reflect the concept established by Ekman's that these are evolutionarily distinct feelings that have increased linguistic identification of them (i.e., feeling blue is an expression of sadness). This overall implies the model is dependable in the management of high-arousal states.
+    \paragraph{Low-Performing or Low Reliability Emotions}
+    The model highlights relatively low accuracies for \textit{Disgust} (60\%), \textit{Surprise} and \textit{Joy} (80\%), all of which indicate an extent of semantic ambiguity. For disgust, the misclassifications seem to commonly stem from overlapping experiential descriptors (i.e  Disgust (“I dreamt that
+I was eating my favorite meal when I discovered a dead
+cockroach...”) which was misclassified as fear.) This also indicates how disgust is in high need of context-dependency research or support and how culturally nuanced it may be, especially in Tagalog contexts.
+Lastly, the results indicate a confusion between \textit{surprise} and \textit{joy}. A confusion that underscored how positively framed surprises can blur emotional boundaries just like this one. More research for future models needs better sentiment analysis to distinguish this type of valence. 
+\newline 
+Overall, the model seems to be viable for the core emotions, but there is a great indicator of the need for enhanced training with disgust and its culture-specific narratives. There is also a need for a more in-depth sentiment analysis between the emotions of \textit{Surprise} and \textit{Joy}.
+
+\subsection{\textbf{User Perceptions Insight}s}
+\paragraph{\textbf{Affinity for Visual and Auditory Elements}}
+The impact of visuals on perceived empathy was highlighted by (68.2\%) percent of the users whereas music is appreciated by (77.3\%) percent of the users, which confirms the choice of DreamOn to focus on aesthetic feedback. The tendency towards selecting of such calming, affirming voice tones (Table III) goes in line with the themes of Table I (e.g., blue to evoke the feeling of sadness as inducing sympathy).
+
+\paragraph{\textbf{Positive perception to adaptive emotion}}
+Majority (63.7\%) preferred dynamic personalization (e.g., changing colors/music) as interfaces that adapt on their moods,validating that changing colors/music is an indicator of responsiveness, a key marker of empathy in HCI.  
+
+\paragraph{\textbf{Perception to Robotic Interactions}}
+
+ Users interpreted canned or "information heavy" responses as being dismissive. The daily dream journal  an extremely individual experience, which means the answers should be answered in the manner that feels personal, which is an understandable response. This is an indicator for greater emotional responsiveness and empathy.
+
+\paragraph{\textbf{Tonal Incongruence}} Since system tone was cheerful music, incongruence in tonal emotion of the user (sadness) compounded irritation due to perceived insensitiveness. This suggest an improvement on the emphasis on emotion-to-feedback harmony.
+
+\paragraph{\textbf{Friction Based on Passiveness}} People did not like how the application effectively turned into passive storage since they wanted empathy to engage with them in a proactive manner. (e.g., through responsive feedback).\newline
+
+\textbf{Final Discussion Thoughts:}\newline
+The DreamOn study shows that empathy can be effectively achieved in chat robots through multimodal feedback, localized to both accuracies (86.67\% in emotion detection) and responsive visual and auditory reactions, and 63.7\% of the users reported comfy to such an arrangement. The system was good at identifying the core emotions such as anger, joy and sadness, but it had a weaker score when identifying the more complex emotions such as disgust (60\%) or that it would sometimes conflate surprise and joy, demonstrating significant semantic and cultural deficiencies in emotion recognition. Users stressed that empathy requires personal and tonally consistent communication, and they did not find alike or inappropriate reactions to be caring. Nonetheless, the shortcomings like sampling biases (mostly college students), feedback variety (only color and music), and the absence of long-term engagement statistics are some of the opportunities to enhance. We hope from this, the model was able to at least show the potential of the integration of these multi-modal systems with user-perceived empathy and the need to account for "AI empathy" or perception to wider range of responses (i.e, cultural diversity, technical resilience).
+
+
+
+
+\section{Conclusion and Future Work}
+DreamOn shows that individualization and thoughtfully constructed visual metaphors are instrumental when it comes to the empathic AI interaction in the dream journaling app. The system was capable of adapting color schemes and music to their moods, making it seem to produce good response in terms of the users feeling they were being understood. Nonetheless, the problem with the existing implementation is the limited taxonomy of dreams that might not fully represent the entire "range" of the dream experiences and feelings relative to that particular dream experience.
+
+Future development: In the current implementation there is a lack of modalities to capture subtle cues of the emotional state, to resolve that this may be extended using voice patterns or analysis of emotion detection via EEG. There is also a necessity to conduct longitudinal studies to analyze how the continued exposure to the empathic chatbots can affect user engagement and emotional well-being in the long-term perspective. Work on these topics would help bring forth the creation of more mature and truly supportive forms of AI companions to reflect on oneself and help in maintaining mental health.
 	
 	
 	\begin{thebibliography}{00}
