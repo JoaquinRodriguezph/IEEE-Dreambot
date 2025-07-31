@@ -20,30 +20,17 @@
 	
 	% --- Author Block ---
 	\author{
-		\IEEEauthorblockN{Rebecca Chiara Q. De Veyra}
-		\IEEEauthorblockA{\textit{College of Computer Studies} \\
-			\textit{De La Salle University}\\
-			Manila, Philippines}
-		\and
-		\IEEEauthorblockN{Reuben Seth G. Jovellana}
-		\IEEEauthorblockA{\textit{College of Computer Studies} \\
-			\textit{De La Salle University}\\
-			Manila, Philippines}
-		\and
-		\IEEEauthorblockN{Alejandro Jose E. Morales}
-		\IEEEauthorblockA{\textit{College of Computer Studies} \\
-			\textit{De La Salle University}\\
-			Manila, Philippines}
-		\and
-		\IEEEauthorblockN{Joaquin Andres D. Rodriguez}
-		\IEEEauthorblockA{\textit{College of Computer Studies} \\
-			\textit{De La Salle University}\\
-			Manila, Philippines}
-		\and
-		\IEEEauthorblockN{Andrei Dominic O. Viguilla}
-		\IEEEauthorblockA{\textit{College of Computer Studies} \\
-			\textit{De La Salle University}\\
-			Manila, Philippines}
+		\IEEEauthorblockN{
+			Rebecca Chiara Q. De Veyra,
+			Reuben Seth G. Jovellana, 
+			Alejandro Jose E. Morales, \\
+			Joaquin Andres D. Rodriguez, and
+			Andrei Dominic O. Viguilla
+		}
+		\IEEEauthorblockA{
+			\textit{College of Computer Studies, De La Salle University}\\
+			Manila, Philippines
+		}
 	}
 	
 	\maketitle
@@ -74,29 +61,7 @@
 	\definecolor{surpriseAccent}{HTML}{F6F5F5}
 	
 	
-	% --- Wide table that spans two columns ---
-	\begin{table*}[t]
-		\caption{MAPPINGS OF EMOTIONS TO INTERFACE THEMES}
-		\label{tab:theme_mappings}
-		\centering
-		\begin{tabular}{|p{0.08\textwidth}|p{0.08\textwidth}|p{0.15\textwidth}|p{0.55\textwidth}|}
-			\hline
-			\textbf{Detected Emotion} & \textbf{Theme Name} & \textbf{Color Palette (Primary, Secondary, Accent)} & \textbf{Psychological Rationale} \\
-			\hline
-			Angry & Uplifting & \cellcolor{angryPrimary}\texttt{\#FF6B6B}, \cellcolor{angrySecondary}\texttt{\#FFD166}, \cellcolor{angryAccent}\texttt{\#F7F9F7} &  The use of a red-family color acknowledges the strong association between red and anger found in both linguistic metaphors and empirical studies \cite{b1}. This is balanced with warm yellow, a color consistently linked to happiness and optimism, aiming to transition the user from a high-arousal negative state to a positive one \cite{b2}. \\
-			\hline
-			Disgust & Ambient & \cellcolor{disgustPrimary}\texttt{\#88D498}, \cellcolor{disgustSecondary}\texttt{\#C7F9CC}, \cellcolor{disgustAccent}\texttt{\#22577A} & While some shades of green can be associated with sickness and disgust \cite{b3}, this theme uses lighter, fresher greens (seafoam, mint). These are psychologically linked to nature and freshness, aiming to evoke a sense of cleansing to counter the feeling of disgust, a concept supported by research showing that cleanliness can reduce the severity of moral judgments tied to disgust \cite{b4}. \\
-			\hline
-			Fear & Emotional & \cellcolor{fearPrimary}\texttt{\#9B5DE5}, \cellcolor{fearSecondary}\texttt{\#F15BB5}, \cellcolor{fearAccent}\texttt{\#00BBF9} &  Blue is widely documented in color psychology studies as being associated with tranquility, stability, and security, which can have a calming effect \cite{b5}. Research also indicates that lavender, a light purple, can reduce anxiety and promote feelings of security and comfort, directly countering the arousal of fear. \\
-			\hline
-			Joy & Uplifting & \cellcolor{joyPrimary}\texttt{\#FF9E6D}, \cellcolor{joySecondary}\texttt{\#FFEA00}, \cellcolor{joyAccent}\texttt{\#A0E7E5} & Yellow is one of the most universally recognized colors for joy and optimism in color-mood association studies \cite{b2, b6}. The addition of peach introduces warmth and comfort, reinforcing the positive state. \\
-			\hline
-			Sadness & Emotional & \cellcolor{sadnessPrimary}\texttt{\#5B8FB9}, \cellcolor{sadnessSecondary}\texttt{\#B6E2D3}, \cellcolor{sadnessAccent}\texttt{\#FADCD9} & The choice of blue acknowledges the widespread cultural metaphor of "feeling blue," an association confirmed in perception studies \cite{b7}. However, blue is also associated with compassion and sincerity, which can serve to validate the user's emotion. The inclusion of soft seaglass (a seafoam green) introduces elements of healing and hope, drawing on the association of green with nature and renewal. \\
-			\hline
-			Surprise & Fantasy & \cellcolor{surprisePrimary}\texttt{\#D77FA1}, \cellcolor{surpriseSecondary}\texttt{\#BAABDA}, \cellcolor{surpriseAccent}\texttt{\#F6F5F5} & Purple hues like mauve and lavender are often associated with mystery, magic, and imagination, which aligns with the sense of wonder that can accompany surprise. The use of pure white as a base provides a clean canvas, representing a new or unexpected situation, drawing on white's association with simplicity and clarity \cite{b6}. \\
-			\hline
-		\end{tabular}
-	\end{table*}
+	
 	
 	\begin{abstract}
 		Digital journaling applications often lack the capacity to provide emotionally supportive responses, particularly in contexts where users share personal and vulnerable content such as dreams. This study attempts to address this by proposing DreamOn, a text-based chatbot designed to deliver empathic feedback during dream journaling. With this, we investigated interface feedback mechanisms that users perceive as empathetic and analyzed how message style, visual cues, and interactivity features influence perceived empathy. The system analyzes user-inputted dream narratives using an emotion classification model and dynamically adapts its interface through music and color themes based on the detected emotional state. A user perception survey involving 21 participants was conducted to perform needfinding and determine what users would like to see in the app, assessing preferences with audio and visual details, overall design, feedback style, adaptivity, and more, which were then evaluated and implemented accordingly. To evaluate DreamOn’s effectiveness, a technical validation was conducted using 30 bilingual (English and Tagalog) dream samples, which achieved an overall classification accuracy of 86.67\%, with high reliability for core emotions such as anger, joy, and sadness. This study contributes to the field of affective computing by demonstrating how emotion-driven feedback can enhance perceived empathy in chatbot interactions. 
@@ -126,7 +91,7 @@
 	% - Dream analysis systems
 	% - Empathy metrics in HCI
     \subsection{Emotion–Mediated Music–Color Associations}
-	Early studies establish that people consistently match musical tones to colors via shared emotions. For example, Palmer et al. (2013) found nearly perfect cross-cultural correlations (r≈0.9) between the emotional character of a musical excerpt and the color people chose to represent it. Major-key, fast (“happy”) music yielded light saturated yellows, while slow, minor-key (“sad”) music elicited dark bluish hues. Whiteford et al. (2018) generalized this result across 34 genres, showing that any apparent perceptual links vanish once emotion (valence/arousal) is controlled: music–color mappings were fully mediated by two latent affect factors. In other words, people choose colors and sounds by common emotional meaning, not by raw acoustic or visual features. Likewise, research on synesthesia suggests even non-synesthetes have latent sound–color–emotion links. Safran and Sanda (2015) review how synesthetic experiences commonly trigger strong emotional reactions, implying robust innate ties between modalities.
+	Early studies establish that people consistently match musical tones to colors via shared emotions. For example, Palmer et al. (2013) found nearly perfect cross-cultural correlations (r$\approx$0.9) between the emotional character of a musical excerpt and the color people chose to represent it. Major-key, fast (“happy”) music yielded light saturated yellows, while slow, minor-key (“sad”) music elicited dark bluish hues. Whiteford et al. (2018) generalized this result across 34 genres, showing that any apparent perceptual links vanish once emotion (valence/arousal) is controlled: music–color mappings were fully mediated by two latent affect factors. In other words, people choose colors and sounds by common emotional meaning, not by raw acoustic or visual features. Likewise, research on synesthesia suggests even non-synesthetes have latent sound–color–emotion links. Safran and Sanda (2015) review how synesthetic experiences commonly trigger strong emotional reactions, implying robust innate ties between modalities.
 
     DreamOn builds directly on this emotion-mediation model. We adopt color–sound pairings that mirror these findings (e.g. pairing soothing music with “calming” blues or uplifting melodies with warm yellows) so that the bot’s aesthetic feedback validates and modulates the user’s mood. In contrast to past work which examined human judgments in isolation, DreamOn operationalizes the shared valence/arousal mapping in an interactive interface: its automated emotion detector drives adaptive themes (Table 1) that align music and UI color in the user’s dream-dialogue. Thus, DreamOn extends the music–color research into a real-time empathic HCI setting by leveraging the same cross-modal emotional bridge.
     
@@ -163,13 +128,36 @@
 	The DreamOn system is modeled around a straightforward flow designed to respond to the user's perceived emotional state. The process is initiated when a user inputs a textual description of their dream into the chatbot's interface. This text is then passed to a back-end emotion detection module for analysis. The module processes the narrative and classifies the user's latent emotion into one of six predefined categories. Upon successful classification, the system presents feedback to the application's user interface, dynamically altering the background color palette and playing a music track thematically aligned with the detected emotion. It is important to note that the current prototype's adaptive response mechanism is intentionally focused on these two modalities—visual aesthetics and auditory cues—to isolate and study their specific impact on user perception.
 	
 	\subsubsection{Emotion Detection and Classification}
-	The core of the DreamOn system's intelligence lies in its text-oriented emotion recognition module. The initial model was developed using the Google GoEmotions dataset, a large, human-tagged collection of Reddit comments labeled into 27 emotion categories. The model was then fine-tuned to classify textual input into one of six basic emotions, as originally theorized by Ekman: Angry, Disgust, Fear, Joy, Sadness, and Surprise. To ensure applicability to a diverse user base, the model was created and evaluated using dreams written in both English and Tagalog, mirroring the bilingual environment of the targeted audience. This functionality enables the system to handle a broader variety of natural user inputs without limitations of language.
+	The core of the DreamOn system's intelligence lies in its text-oriented emotion recognition module, which is powered by Cohere AI. The initial model was developed using the Google GoEmotions dataset, a large, human-tagged collection of Reddit comments labeled into 27 emotion categories. The model was then fine-tuned to classify textual input into one of six basic emotions, as originally theorized by Ekman: Angry, Disgust, Fear, Joy, Sadness, and Surprise. To ensure applicability to a diverse user base, the model was created and evaluated using dreams written in both English and Tagalog, mirroring the bilingual environment of the targeted audience. The six emotions still applied to the new Cohere AI driven chatbot. With the new AI usage,This functionality enables the system to handle a broader variety of natural user inputs without limitations of language.
 	
 	\subsubsection{Design of Adaptive Aesthetic Feedback}
 	The main objective of this research is to explore the potential of non-verbal cues to convey empathy, an area often less frequently considered than dialogue in HCI research. The design of DreamOn's adaptive feedback was based on concepts of color psychology and emotional connections. Each one of the six detectable emotions is mapped to a distinct interface theme, comprising a specific color palette and a matching musical genre. The mapping used is meant to validate, soothe, or otherwise appropriately respond to the user's emotional state. Table~\ref{tab:theme_mappings} provides a comprehensive explanation for these mappings of emotions to interfaces.
 	
 	The choice of the music tracks was influenced by the same psychological principles. For example, the "Uplifting Theme" evoked by anger is paired with cheerful and hopeful music, whereas the "Emotional Theme" for sadness includes a more melancholic and soft soundscape. This combined method seeks to establish a comprehensive and engaging emotional atmosphere for the user.
 	
+	% --- Wide table that spans two columns ---
+	\begin{table*}[t]
+		\caption{MAPPINGS OF EMOTIONS TO INTERFACE THEMES}
+		\label{tab:theme_mappings}
+		\centering
+		\begin{tabular}{|p{0.08\textwidth}|p{0.08\textwidth}|p{0.15\textwidth}|p{0.55\textwidth}|}
+			\hline
+			\textbf{Detected Emotion} & \textbf{Theme Name} & \textbf{Color Palette (Primary, Secondary, Accent)} & \textbf{Psychological Rationale} \\
+			\hline
+			Angry & Uplifting & \cellcolor{angryPrimary}\texttt{\#FF6B6B}, \cellcolor{angrySecondary}\texttt{\#FFD166}, \cellcolor{angryAccent}\texttt{\#F7F9F7} &  The use of a red-family color acknowledges the strong association between red and anger found in both linguistic metaphors and empirical studies \cite{b1}. This is balanced with warm yellow, a color consistently linked to happiness and optimism, aiming to transition the user from a high-arousal negative state to a positive one \cite{b2}. \\
+			\hline
+			Disgust & Ambient & \cellcolor{disgustPrimary}\texttt{\#88D498}, \cellcolor{disgustSecondary}\texttt{\#C7F9CC}, \cellcolor{disgustAccent}\texttt{\#22577A} & While some shades of green can be associated with sickness and disgust \cite{b3}, this theme uses lighter, fresher greens (seafoam, mint). These are psychologically linked to nature and freshness, aiming to evoke a sense of cleansing to counter the feeling of disgust, a concept supported by research showing that cleanliness can reduce the severity of moral judgments tied to disgust \cite{b4}. \\
+			\hline
+			Fear & Emotional & \cellcolor{fearPrimary}\texttt{\#9B5DE5}, \cellcolor{fearSecondary}\texttt{\#F15BB5}, \cellcolor{fearAccent}\texttt{\#00BBF9} &  Blue is widely documented in color psychology studies as being associated with tranquility, stability, and security, which can have a calming effect \cite{b5}. Research also indicates that lavender, a light purple, can reduce anxiety and promote feelings of security and comfort, directly countering the arousal of fear. \\
+			\hline
+			Joy & Uplifting & \cellcolor{joyPrimary}\texttt{\#FF9E6D}, \cellcolor{joySecondary}\texttt{\#FFEA00}, \cellcolor{joyAccent}\texttt{\#A0E7E5} & Yellow is one of the most universally recognized colors for joy and optimism in color-mood association studies \cite{b2, b6}. The addition of peach introduces warmth and comfort, reinforcing the positive state. \\
+			\hline
+			Sadness & Emotional & \cellcolor{sadnessPrimary}\texttt{\#5B8FB9}, \cellcolor{sadnessSecondary}\texttt{\#B6E2D3}, \cellcolor{sadnessAccent}\texttt{\#FADCD9} & The choice of blue acknowledges the widespread cultural metaphor of "feeling blue," an association confirmed in perception studies \cite{b7}. However, blue is also associated with compassion and sincerity, which can serve to validate the user's emotion. The inclusion of soft seaglass (a seafoam green) introduces elements of healing and hope, drawing on the association of green with nature and renewal. \\
+			\hline
+			Surprise & Fantasy & \cellcolor{surprisePrimary}\texttt{\#D77FA1}, \cellcolor{surpriseSecondary}\texttt{\#BAABDA}, \cellcolor{surpriseAccent}\texttt{\#F6F5F5} & Purple hues like mauve and lavender are often associated with mystery, magic, and imagination, which aligns with the sense of wonder that can accompany surprise. The use of pure white as a base provides a clean canvas, representing a new or unexpected situation, drawing on white's association with simplicity and clarity \cite{b6}. \\
+			\hline
+		\end{tabular}
+	\end{table*}
 	
 	\subsection{Data Collection}
 	The evaluation of the DreamOn concept was designed to address the research from two angles: how reliable it is in detecting the user’s emotion and the user’s perception of if they felt the application was empathetic towards them.

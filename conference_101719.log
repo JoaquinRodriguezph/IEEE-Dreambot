@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.3.8)  30 JUL 2025 13:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.3.8)  31 JUL 2025 11:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,7 +6,7 @@ entering extended mode
 (conference_101719.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
-(C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/ieeetran\IEEEtran.cls
+(IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
 -- http://www.michaelshell.org/tex/ieeetran/
@@ -330,78 +330,18 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 82.
 
- (C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+LaTeX Font Info:    Trying to load font information for U+msa on input line 94.
+
+(C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 82.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 94.
 
- (C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+
+(C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 84--84
-[]|\OT1/ptm/b/n/8 Detected
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 84--84
-[]|\OT1/ptm/b/n/8 Theme
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 84--84
-[]|\OT1/ptm/b/n/8 Color Palette
- []
-
-
-Underfull \hbox (badness 1888) in paragraph at lines 84--84
-\OT1/ptm/b/n/8 (Pri-mary, Sec-ondary,
- []
-
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 8
-6.
-(C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-Underfull \hbox (badness 2261) in paragraph at lines 86--86
-[]|\OT1/pcr/m/n/8 #FF6B6B\OT1/ptm/m/n/8 , \OT1/pcr/m/n/8 #FFD166\OT1/ptm/m/n/8 
-,
- []
-
-
-Underfull \hbox (badness 2261) in paragraph at lines 88--88
-[]|\OT1/pcr/m/n/8 #88D498\OT1/ptm/m/n/8 , \OT1/pcr/m/n/8 #C7F9CC\OT1/ptm/m/n/8 
-,
- []
-
-
-Underfull \hbox (badness 2261) in paragraph at lines 90--90
-[]|\OT1/pcr/m/n/8 #9B5DE5\OT1/ptm/m/n/8 , \OT1/pcr/m/n/8 #F15BB5\OT1/ptm/m/n/8 
-,
- []
-
-
-Underfull \hbox (badness 2261) in paragraph at lines 92--92
-[]|\OT1/pcr/m/n/8 #FF9E6D\OT1/ptm/m/n/8 , \OT1/pcr/m/n/8 #FFEA00\OT1/ptm/m/n/8 
-,
- []
-
-
-Underfull \hbox (badness 2261) in paragraph at lines 94--94
-[]|\OT1/pcr/m/n/8 #5B8FB9\OT1/ptm/m/n/8 , \OT1/pcr/m/n/8 #B6E2D3\OT1/ptm/m/n/8 
-,
- []
-
-
-Underfull \hbox (badness 2261) in paragraph at lines 96--96
-[]|\OT1/pcr/m/n/8 #D77FA1\OT1/ptm/m/n/8 , \OT1/pcr/m/n/8 #BAABDA\OT1/ptm/m/n/8 
-,
- []
-
-
-
-
 
 [1{C:/Users/Lenovo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/L
 enovo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
@@ -414,19 +354,96 @@ enovo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 [2]
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--228
-\OT1/ptm/m/n/8 Moderately im-por-tant (3): 4
+Underfull \hbox (badness 10000) in paragraph at lines 145--145
+[]|\OT1/ptm/b/n/8 Detected
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--145
+[]|\OT1/ptm/b/n/8 Theme
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--145
+[]|\OT1/ptm/b/n/8 Color Palette
+ []
+
+
+Underfull \hbox (badness 1888) in paragraph at lines 145--145
+\OT1/ptm/b/n/8 (Pri-mary, Sec-ondary,
+ []
+
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 1
+47.
+(C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+Underfull \hbox (badness 2261) in paragraph at lines 147--147
+[]|\OT1/pcr/m/n/8 #FF6B6B\OT1/ptm/m/n/8 , \OT1/pcr/m/n/8 #FFD166\OT1/ptm/m/n/8 
+,
+ []
+
+
+Underfull \hbox (badness 2261) in paragraph at lines 149--149
+[]|\OT1/pcr/m/n/8 #88D498\OT1/ptm/m/n/8 , \OT1/pcr/m/n/8 #C7F9CC\OT1/ptm/m/n/8 
+,
+ []
+
+
+Underfull \hbox (badness 2261) in paragraph at lines 151--151
+[]|\OT1/pcr/m/n/8 #9B5DE5\OT1/ptm/m/n/8 , \OT1/pcr/m/n/8 #F15BB5\OT1/ptm/m/n/8 
+,
+ []
+
+
+Underfull \hbox (badness 2261) in paragraph at lines 153--153
+[]|\OT1/pcr/m/n/8 #FF9E6D\OT1/ptm/m/n/8 , \OT1/pcr/m/n/8 #FFEA00\OT1/ptm/m/n/8 
+,
+ []
+
+
+Underfull \hbox (badness 2261) in paragraph at lines 155--155
+[]|\OT1/pcr/m/n/8 #5B8FB9\OT1/ptm/m/n/8 , \OT1/pcr/m/n/8 #B6E2D3\OT1/ptm/m/n/8 
+,
+ []
+
+
+Underfull \hbox (badness 2261) in paragraph at lines 157--157
+[]|\OT1/pcr/m/n/8 #D77FA1\OT1/ptm/m/n/8 , \OT1/pcr/m/n/8 #BAABDA\OT1/ptm/m/n/8 
+,
  []
 
 
 
 [3]
-Underfull \hbox (badness 2134) in paragraph at lines 258--259
+
+
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 244--248
+\OT1/ptm/m/n/8 Moderately im-por-tant (3): 4
+ []
+
+
+
+
+Underfull \hbox (badness 2134) in paragraph at lines 278--279
 []\OT1/ptm/b/n/10 Preferred Style: \OT1/ptm/m/n/10 When dis-cussing feed-back s
 tyles,
  []
 
 
+
+[5]
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 327--328
+
+ []
+
+
+
+[6]
 
 
 ** Conference Paper **
@@ -441,30 +458,31 @@ Before submitting the final camera ready copy, remember to:
 
 
 
-[4] (conference_101719.aux)
+[7] (conference_101719.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4437 strings out of 473523
- 70601 string characters out of 5714147
- 489702 words of memory out of 5000000
- 27614 multiletter control sequences out of 15000+600000
- 598592 words of font info for 111 fonts, out of 8000000 for 9000
+ 4449 strings out of 473523
+ 70533 string characters out of 5714147
+ 495411 words of memory out of 5000000
+ 27626 multiletter control sequences out of 15000+600000
+ 599688 words of font info for 112 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,11n,75p,925b,359s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,11n,75p,1499b,359s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmsy7.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/couri
-er/ucrr8a.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/ti
-mes/utmb8a.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/t
-imes/utmbi8a.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/urw
-/times/utmr8a.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/ur
-w/times/utmri8a.pfb>
-Output written on conference_101719.pdf (4 pages, 107800 bytes).
+/cmsy10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmsy7.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1
+/urw/courier/ucrr8a.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/urw/times/utmb8a.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/urw/times/utmbi8a.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts
+/type1/urw/times/utmr8a.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/font
+s/type1/urw/times/utmri8a.pfb>
+Output written on conference_101719.pdf (7 pages, 139233 bytes).
 PDF statistics:
- 46 PDF objects out of 1000 (max. 8388607)
+ 62 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
